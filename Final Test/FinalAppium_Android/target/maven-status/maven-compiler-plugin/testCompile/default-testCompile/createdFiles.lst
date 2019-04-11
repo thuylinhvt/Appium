@@ -1,0 +1,11 @@
+pages/CartPage.class
+stepdefinition/StepDefinitions.class
+pages/QueryPage.class
+pages/HomePage.class
+pages/ListProductPage.class
+pages/ProductDetailPage.class
+pages/CatagoryPage.class
+stepdefinition/ServicesHooks.class
+utils/AppiumBase.class
+pages/LaptopMVTPage.class
+cucumberoptions/RunCukeTest.class

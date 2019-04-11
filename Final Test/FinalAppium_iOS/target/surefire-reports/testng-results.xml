@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cucumberoptions.RunCukeTest" duration-ms="518409" started-at="2019-04-08T02:26:57Z" finished-at="2019-04-08T02:35:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukeTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.RunCukeTest@35fb3008]" name="feature" class="cucumberoptions.RunCukeTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="518409" started-at="2019-04-08T02:26:57Z" finished-at="2019-04-08T02:35:36Z">
+      <class name="cucumberoptions.RunCukeTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberoptions.RunCukeTest@35fb3008]" name="setUpClass" is-config="true" duration-ms="483" started-at="2019-04-08T09:26:57Z" finished-at="2019-04-08T09:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.RunCukeTest@35fb3008]" name="feature" duration-ms="517762" started-at="2019-04-08T09:26:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-08T09:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test BoardBank-master App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberoptions.RunCukeTest@35fb3008]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2019-04-08T09:35:36Z" finished-at="2019-04-08T09:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberoptions.RunCukeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cucumberoptions.RunCukeTest -->
+</testng-results>

@@ -1,0 +1,8 @@
+stepdefinition/StepDefinitions.class
+pages/ListProductPage.class
+pages/CategoryPage.class
+pages/DetailProduct.class
+stepdefinition/ServicesHooks.class
+utils/AppiumBase.class
+pages/LaptopMVTPage.class
+cucumberoptions/RunCukeTest.class

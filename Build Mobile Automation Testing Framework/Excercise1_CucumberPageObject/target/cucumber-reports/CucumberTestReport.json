@@ -1,0 +1,251 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User open the TIKI application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6244692351,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the \"Home Screen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home Screen",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.homeScreen(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3134199443,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see \"Menu Icon\" on top screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu Icon",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuIcon(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10589379494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServicesHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify items are displayed when I click the Laptop - May vi tinh - Linh kien",
+        "description": "",
+        "id": "verify-product-name-and-product-price];verify-items-are-displayed-when-i-click-the-laptop---may-vi-tinh---linh-kien",
+        "after": [
+          {
+            "result": {
+              "duration": 2899211755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServicesHooks.afterHookfunction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1189180100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the \"Menu Icon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu Icon",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1696776107,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the \"Danh muc san pham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danh muc san pham",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26112239430,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I scroll up and I click the \"Laptop - May vi tinh - Linh kien\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop - May vi tinh - Linh kien",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.scrollToClick(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24387673888,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the title of screen is \"Laptop - May vi tinh - Linh kien\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop - May vi tinh - Linh kien",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.verifyTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49343580640,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I scroll up and I should see \"Moi nhat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Moi nhat",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.scrollToDisplay(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1305309033,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the \"Xem tat ca\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xem tat ca",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5104945768,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the \"First product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First product",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1135472923,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see \"Product name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product name",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuItem(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 701656661,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see \"Product price\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product price",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuItem(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify product name and product price]",
+    "description": "",
+    "id": "verify-product-name-and-product-price]",
+    "keyword": "Feature",
+    "uri": "AndroidTestApp.feature"
+  }
+]

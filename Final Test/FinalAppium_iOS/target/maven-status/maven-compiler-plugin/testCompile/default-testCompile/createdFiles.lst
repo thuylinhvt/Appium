@@ -1,0 +1,7 @@
+stepdefinition/StepDefinitions.class
+pages/SettingPage.class
+pages/AddPlayerPage.class
+pages/HomePage.class
+stepdefinition/ServicesHooks.class
+utils/AppiumBase.class
+cucumberoptions/RunCukeTest.class

@@ -1,0 +1,371 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User open the TIKI application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4936727369,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the \"Home Screen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home Screen",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.homeScreen(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1906529978,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see \"Menu Icon\" on top screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu Icon",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuIcon(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8692288737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServicesHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify product name and product price",
+        "description": "",
+        "id": "verify-product-name-and-product-price];verify-product-name-and-product-price",
+        "after": [
+          {
+            "result": {
+              "duration": 674378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServicesHooks.captureFailed(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3399759101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServicesHooks.afterHookfunction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915019381,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the \"Menu Icon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu Icon",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1997703686,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the \"Danh muc san pham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danh muc san pham",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2940836516,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the \"Thoi trang\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thoi trang",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24913067948,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I scroll up and I should see \"Moi nhat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Moi nhat",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.scrollUpToDisplay(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1346080634,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the \"Xem tat ca\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xem tat ca",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2586546914,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the \"Filter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Filter",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753691313,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the \"Danh muc san pham 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danh muc san pham 2",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24242123790,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I scroll up and I click the \"Phu kien thoi trang\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Phu kien thoi trang",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.scrollUpToClick(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1696610684,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click the \"Trang suc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trang suc",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1450969332,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the \"Trang suc bac\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trang suc bac",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4047112725,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I scroll down and I should see \"menu query\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "menu query",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.scrollDownToDisplay(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497698917,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click the \"close menu query\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "close menu query",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1997885902,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the \"First product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First product",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2995193030,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see \"Product name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product name",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuItem(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 200772685,
+              "status": "passed"
+            },
+            "output": [
+              "scenario pass"
+            ],
+            "line": 23,
+            "name": "I should see \"Product price\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product price",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.findMenuItem(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify product name and product price]",
+    "description": "",
+    "id": "verify-product-name-and-product-price]",
+    "keyword": "Feature",
+    "uri": "AndroidTestApp.feature"
+  }
+]
