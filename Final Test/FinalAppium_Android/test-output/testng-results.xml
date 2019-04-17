@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29316" started-at="2019-04-03T09:43:47Z" finished-at="2019-04-03T09:44:16Z">
+  <suite name="Default suite" duration-ms="496471" started-at="2019-04-11T04:28:28Z" finished-at="2019-04-11T04:36:45Z">
     <groups>
       <group name="cucumber">
         <method signature="RunCukeTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="feature" class="cucumberoptions.RunCukeTest"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="29316" started-at="2019-04-03T09:43:47Z" finished-at="2019-04-03T09:44:16Z">
+    <test name="Default test" duration-ms="496471" started-at="2019-04-11T04:28:28Z" finished-at="2019-04-11T04:36:45Z">
       <class name="cucumberoptions.RunCukeTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="setUpClass" is-config="true" duration-ms="484" started-at="2019-04-03T16:43:47Z" finished-at="2019-04-03T16:43:47Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="setUpClass" is-config="true" duration-ms="425" started-at="2019-04-11T11:28:28Z" finished-at="2019-04-11T11:28:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="feature" duration-ms="28599" started-at="2019-04-03T16:43:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-03T16:44:16Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="feature" duration-ms="495887" started-at="2019-04-11T11:28:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-11T11:36:45Z">
           <params>
             <param index="0">
               <value>
@@ -24,12 +24,22 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class stepdefinition.StepDefinitions]]>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Drag did not complete successfully
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3.local', ip: 'fe80:0:0:0:14e2:8681:806b:e5b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, databaseEnabled: false, desired: {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, deviceName: Nexus 5X, platformName: android, platformVersion: 7.1.1}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.1, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: b3ac975b-0d5b-4f7d-aa40-c80f556b05df]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Failed to instantiate class stepdefinition.StepDefinitions
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Drag did not complete successfully
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3.local', ip: 'fe80:0:0:0:14e2:8681:806b:e5b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, databaseEnabled: false, desired: {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, deviceName: Nexus 5X, platformName: android, platformVersion: 7.1.1}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.1, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: b3ac975b-0d5b-4f7d-aa40-c80f556b05df
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumberoptions.RunCukeTest.feature(RunCukeTest.java:32)
+	at cucumberoptions.RunCukeTest.feature(RunCukeTest.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,42 +64,38 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: cucumber.runtime.CucumberException: Failed to instantiate class stepdefinition.StepDefinitions
-	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
-	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	... 25 more
-Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Drag did not complete successfully
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3.local', ip: 'fe80:0:0:0:14e2:8681:806b:e5b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, databaseEnabled: false, desired: {appActivity: .ui.SplashActivity, appPackage: vn.tiki.app.tikiandroid, deviceName: Nexus 5X, platformName: android, platformVersion: 7.1.1}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.1, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: b3ac975b-0d5b-4f7d-aa40-c80f556b05df
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
-	... 35 more
-Caused by: java.lang.NoClassDefFoundError: pages/HomePage
-	at stepdefinition.StepDefinitions.<init>(StepDefinitions.java:26)
-	... 40 more
-Caused by: java.lang.ClassNotFoundException: pages.HomePage
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 41 more
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)
+	at io.appium.java_client.TouchAction.perform(TouchAction.java:187)
+	at pages.CatagoryPage.swipe(CatagoryPage.java:57)
+	at pages.CatagoryPage.swipeMobileUp(CatagoryPage.java:71)
+	at stepdefinition.StepDefinitions.scrollToClick(StepDefinitions.java:206)
+	at ✽.And I scroll up and I click the "result product"(AndroidTestApp.feature:50)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2019-04-03T16:44:16Z" finished-at="2019-04-03T16:44:16Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberoptions.RunCukeTest@146ba0ac]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2019-04-11T11:36:45Z" finished-at="2019-04-11T11:36:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

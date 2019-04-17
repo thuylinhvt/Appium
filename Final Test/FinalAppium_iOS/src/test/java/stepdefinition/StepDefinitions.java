@@ -81,6 +81,17 @@ public class StepDefinitions {
 				e.printStackTrace();
 			}
 		}
+		if(element.equals("Add $500")) {
+			if(homePage.getAddBalance().isDisplayed()) {
+				homePage.getAddBalance().click();
+			}
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 		if(element.equals("Save Settings button")) {
 			if(settingPage.getSaveSettingButton().isDisplayed()) {
 				settingPage.getSaveSettingButton().click();
@@ -138,34 +149,27 @@ public class StepDefinitions {
 	@When("^I sendkeys \"(.*)\" into \"(.*)\"$")
 	public void sendkeys(String text, String element) {
 		try {
-			if (element.equals("Name textbox") && text.equals("Thuy Linh")) {
+			if (element.equals("Name textbox")) {
 				addPlayerPage.getName().clear();
-				addPlayerPage.getName().sendKeys(text);
+				addPlayerPage.getName().sendKeys(text.trim());
 			}
-			Thread.sleep(1000);
-
-			if (element.equals("Balance value") && text.equals("1000")) {
+			
+			if (element.equals("Balance value")) {
 				addPlayerPage.getBalance().clear();
-				addPlayerPage.getBalance().sendKeys(text);
+				addPlayerPage.getBalance().sendKeys(text.trim());
 			}
-			Thread.sleep(1000);
 
-			if(element.equals("Default Balance") && text.equals("3000")) {
+
+			if(element.equals("Default Balance")) {
 				settingPage.getDefaultBalace().clear();
 				settingPage.getDefaultBalace().sendKeys(text);
 			}
-			Thread.sleep(1000);
 			
-			if(element.equals("Quick Add Amount") && text.equals("500")) {
+			if(element.equals("Quick Add Amount")) {
 				settingPage.getQuickAddAmount().clear();
-				settingPage.getQuickAddAmount().sendKeys("500");
+				settingPage.getQuickAddAmount().sendKeys(text);
 			}
-			Thread.sleep(1000);
 			
-			if(element.equals("Quick Add Amount") && text.equals("200")) {
-				settingPage.getQuickAddAmount().clear();
-				settingPage.getQuickAddAmount().sendKeys("200");
-			}
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -182,21 +186,16 @@ public class StepDefinitions {
 
 	@Then("^I should see the \"(.*)\" is \"(.*)\"$")
 	public void verifyText(String element, String text) {
-		if (element.equals("Player Name") && text.equals("Thuy Linh")) {
+		if (element.equals("Player Name")) {
 			assertTrue(homePage.getPlayerName().getText().equals(text));
 		}
-		if (element.equals("Balance value") && text.equals("1000")) {
-			assertTrue(homePage.getBalance().getText().equals("$1.000"));
+		if (element.equals("Balance value")) {
+			assertTrue(homePage.getBalance().getText().equals(text));
 		}
-		if(element.equals("Balance value") && text.equals("1200")) {
-			assertTrue(homePage.getBalance().getText().equals("$1.200"));
-		}
-		if(element.equals("Balance value") && text.equals("3000")) {
+		if(element.equals("Balance value 2")) {
 			assertTrue(addPlayerPage.getBalance().getText().equals(text));
 		}
-		if(element.equals("Balance value") && text.equals("1500")) {
-			assertTrue(homePage.getBalance().getText().equals("$1.500"));
-		}
+		
 	}
 
 }

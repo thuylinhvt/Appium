@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10661951762,
+  "duration": 9724804699,
   "status": "passed"
 });
 formatter.background({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 1690572555,
+  "duration": 1394707972,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2095976512,
+  "duration": 2186173086,
   "status": "passed"
 });
 formatter.match({
@@ -78,7 +78,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1749286313,
+  "duration": 1908732417,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 9394915447,
+  "duration": 11085799490,
   "status": "passed"
 });
 formatter.match({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2747838467,
+  "duration": 2797097222,
   "status": "passed"
 });
 formatter.scenario({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "StepDefinitions.verifyAvailable(String)"
 });
 formatter.result({
-  "duration": 640868775,
+  "duration": 693222685,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1004340308,
+  "duration": 999583791,
   "status": "passed"
 });
 formatter.match({
@@ -166,20 +166,20 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 993192211,
+  "duration": 1055228628,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 636755,
+  "duration": 676173,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1112178740,
+  "duration": 1140604886,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7196231642,
+  "duration": 9011950226,
   "status": "passed"
 });
 formatter.background({
@@ -224,7 +224,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 2184243026,
+  "duration": 1129306789,
   "status": "passed"
 });
 formatter.match({
@@ -237,7 +237,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2299394772,
+  "duration": 2507725627,
   "status": "passed"
 });
 formatter.match({
@@ -250,7 +250,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1552296866,
+  "duration": 1843506335,
   "status": "passed"
 });
 formatter.match({
@@ -263,7 +263,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 10149464449,
+  "duration": 10450099519,
   "status": "passed"
 });
 formatter.match({
@@ -276,11 +276,11 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2795309298,
+  "duration": 2693893331,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 16,
   "name": "Verify UI Add Player Screen",
   "description": "",
   "id": "test-boardbank-master-app;verify-ui-add-player-screen",
@@ -288,27 +288,27 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 16,
+  "line": 17,
   "name": "I click the \"Add icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
+  "line": 18,
   "name": "I should see \"Name textbox\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
+  "line": 19,
   "name": "I should see \"Balance textbox\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I should see \"Icon number\" is 12",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "I should see \"Add Playe button\"",
   "keyword": "And "
 });
@@ -322,7 +322,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 858389085,
+  "duration": 1845376780,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 8634489334,
+  "duration": 8500841210,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 8349367143,
+  "duration": 7395959569,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "StepDefinitions.verifyIconNumber(String)"
 });
 formatter.result({
-  "duration": 16198222786,
+  "duration": 15652848507,
   "status": "passed"
 });
 formatter.match({
@@ -374,20 +374,90 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 8604745714,
+  "duration": 7796781177,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 367225,
+  "duration": 393729,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1248808472,
+  "duration": 1144576087,
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "line": 23,
+  "name": "Add new a Player",
+  "description": "",
+  "id": "test-boardbank-master-app;add-new-a-player",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 24,
+  "name": "I click the \"Add icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 25,
+  "name": "I sendkeys \"\u003cplayer name\u003e\" into \"Name textbox\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I sendkeys \"\u003cbalance value\u003e\" into \"Balance value\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I select \"Icon\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I click the \"Add Player button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I should see the \"Player Name\" is \"\u003cplayer name\u003e\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "I should see the \"Balance value\" is \"\u003cbalance expected\u003e\"",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 32,
+  "name": "",
+  "description": "",
+  "id": "test-boardbank-master-app;add-new-a-player;",
+  "rows": [
+    {
+      "cells": [
+        "player name",
+        "balance value",
+        "balance expected"
+      ],
+      "line": 33,
+      "id": "test-boardbank-master-app;add-new-a-player;;1"
+    },
+    {
+      "cells": [
+        "Thuy Linh",
+        "1000",
+        "$1.000"
+      ],
+      "line": 34,
+      "id": "test-boardbank-master-app;add-new-a-player;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
 formatter.before({
-  "duration": 7555513262,
+  "duration": 9949480643,
   "status": "passed"
 });
 formatter.background({
@@ -432,7 +502,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 1090570694,
+  "duration": 1243326152,
   "status": "passed"
 });
 formatter.match({
@@ -445,7 +515,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2346392573,
+  "duration": 2444288846,
   "status": "passed"
 });
 formatter.match({
@@ -458,7 +528,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1700932531,
+  "duration": 1855221963,
   "status": "passed"
 });
 formatter.match({
@@ -471,7 +541,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 9792858682,
+  "duration": 11503154070,
   "status": "passed"
 });
 formatter.match({
@@ -484,50 +554,62 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2402497282,
+  "duration": 3037001445,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 22,
+  "line": 34,
   "name": "Add new a Player",
   "description": "",
-  "id": "test-boardbank-master-app;add-new-a-player",
+  "id": "test-boardbank-master-app;add-new-a-player;;2",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "I click the \"Add icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
-  "name": "I sendkeys \"Thuy Linh\" into \"Name textbox\"",
-  "keyword": "And "
-});
-formatter.step({
   "line": 25,
-  "name": "I sendkeys \"1000\" into \"Balance value\"",
+  "name": "I sendkeys \"Thuy Linh\" into \"Name textbox\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 26,
-  "name": "I select \"Icon\"",
+  "name": "I sendkeys \"1000\" into \"Balance value\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 27,
-  "name": "I click the \"Add Player button\"",
+  "name": "I select \"Icon\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 28,
-  "name": "I should see the \"Player Name\" is \"Thuy Linh\"",
-  "keyword": "Then "
+  "name": "I click the \"Add Player button\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 29,
-  "name": "I should see the \"Balance value\" is \"1000\"",
+  "name": "I should see the \"Player Name\" is \"Thuy Linh\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "I should see the \"Balance value\" is \"$1.000\"",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "And "
 });
 formatter.match({
@@ -540,7 +622,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1092323890,
+  "duration": 1407053233,
   "status": "passed"
 });
 formatter.match({
@@ -557,7 +639,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 21903598938,
+  "duration": 17742204735,
   "status": "passed"
 });
 formatter.match({
@@ -574,7 +656,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 21910642440,
+  "duration": 19747467744,
   "status": "passed"
 });
 formatter.match({
@@ -587,7 +669,7 @@ formatter.match({
   "location": "StepDefinitions.selectIcon(String)"
 });
 formatter.result({
-  "duration": 9385965069,
+  "duration": 10558047265,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +682,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 15149953884,
+  "duration": 15237621686,
   "status": "passed"
 });
 formatter.match({
@@ -617,7 +699,7 @@ formatter.match({
   "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 3044968542,
+  "duration": 2947242372,
   "status": "passed"
 });
 formatter.match({
@@ -627,27 +709,134 @@ formatter.match({
       "offset": 18
     },
     {
-      "val": "1000",
+      "val": "$1.000",
       "offset": 37
     }
   ],
   "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 947446614,
+  "duration": 946673323,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 366179,
+  "duration": 364121,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1199705464,
+  "duration": 1102160761,
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "line": 36,
+  "name": "Add Balance for a item",
+  "description": "",
+  "id": "test-boardbank-master-app;add-balance-for-a-item",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 37,
+  "name": "I am on the \"Home Screen\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 38,
+  "name": "I click the \"Setting icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 39,
+  "name": "I sendkeys \"\u003cquick add amount\u003e\" into \"Quick Add Amount\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "I click the \"Save Settings button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "I click the \"Add icon\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 42,
+  "name": "I sendkeys \"\u003cplayer name\u003e\" into \"Name textbox\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "I sendkeys \"\u003cbalance value\u003e\" into \"Balance value\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "I select \"Icon\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "I click the \"Add Player button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I should see the \"Player Name\" is \"\u003cplayer name\u003e\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 47,
+  "name": "I click the \"item\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "I should see \"menu\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 49,
+  "name": "I click the \"Add $200\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 50,
+  "name": "I should see the \"Balance value\" is \"\u003cbalance expected\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 51,
+  "name": "",
+  "description": "",
+  "id": "test-boardbank-master-app;add-balance-for-a-item;",
+  "rows": [
+    {
+      "cells": [
+        "quick add amount",
+        "player name",
+        "balance value",
+        "balance expected"
+      ],
+      "line": 52,
+      "id": "test-boardbank-master-app;add-balance-for-a-item;;1"
+    },
+    {
+      "cells": [
+        "200",
+        "Thuy Linh",
+        "1000",
+        "$1.200"
+      ],
+      "line": 53,
+      "id": "test-boardbank-master-app;add-balance-for-a-item;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
 formatter.before({
-  "duration": 6810979172,
+  "duration": 8600325029,
   "status": "passed"
 });
 formatter.background({
@@ -692,7 +881,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 1039966003,
+  "duration": 992479384,
   "status": "passed"
 });
 formatter.match({
@@ -705,7 +894,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2000719686,
+  "duration": 2341109197,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +907,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1846566007,
+  "duration": 1956371000,
   "status": "passed"
 });
 formatter.match({
@@ -731,7 +920,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 9443160329,
+  "duration": 10097406052,
   "status": "passed"
 });
 formatter.match({
@@ -744,85 +933,100 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2301670661,
+  "duration": 3591378838,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 31,
+  "line": 53,
   "name": "Add Balance for a item",
   "description": "",
-  "id": "test-boardbank-master-app;add-balance-for-a-item",
+  "id": "test-boardbank-master-app;add-balance-for-a-item;;2",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 32,
+  "line": 37,
   "name": "I am on the \"Home Screen\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 38,
   "name": "I click the \"Setting icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
-  "name": "I sendkeys \"200\" into \"Quick Add Amount\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 35,
-  "name": "I click the \"Save Settings button\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "I click the \"Add icon\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 37,
-  "name": "I sendkeys \"Thuy Linh\" into \"Name textbox\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 38,
-  "name": "I sendkeys \"1000\" into \"Balance value\"",
-  "keyword": "And "
-});
-formatter.step({
   "line": 39,
-  "name": "I select \"Icon\"",
+  "name": "I sendkeys \"200\" into \"Quick Add Amount\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 40,
-  "name": "I click the \"Add Player button\"",
+  "name": "I click the \"Save Settings button\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 41,
-  "name": "I should see the \"Player Name\" is \"Thuy Linh\"",
-  "keyword": "Then "
+  "name": "I click the \"Add icon\"",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 42,
+  "name": "I sendkeys \"Thuy Linh\" into \"Name textbox\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "I sendkeys \"1000\" into \"Balance value\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "I select \"Icon\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "I click the \"Add Player button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I should see the \"Player Name\" is \"Thuy Linh\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 47,
   "name": "I click the \"item\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
+  "line": 48,
   "name": "I should see \"menu\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 49,
   "name": "I click the \"Add $200\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 45,
-  "name": "I should see the \"Balance value\" is \"1200\"",
+  "line": 50,
+  "name": "I should see the \"Balance value\" is \"$1.200\"",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "Then "
 });
 formatter.match({
@@ -835,7 +1039,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 998469328,
+  "duration": 1048959971,
   "status": "passed"
 });
 formatter.match({
@@ -848,7 +1052,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2191139229,
+  "duration": 2643935923,
   "status": "passed"
 });
 formatter.match({
@@ -865,7 +1069,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 12399278393,
+  "duration": 11052109289,
   "status": "passed"
 });
 formatter.match({
@@ -878,7 +1082,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1610641260,
+  "duration": 1546739689,
   "status": "passed"
 });
 formatter.match({
@@ -891,7 +1095,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1286088542,
+  "duration": 1396677816,
   "status": "passed"
 });
 formatter.match({
@@ -908,7 +1112,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 22271374898,
+  "duration": 16606254806,
   "status": "passed"
 });
 formatter.match({
@@ -925,7 +1129,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 22816899911,
+  "duration": 17835882934,
   "status": "passed"
 });
 formatter.match({
@@ -938,7 +1142,7 @@ formatter.match({
   "location": "StepDefinitions.selectIcon(String)"
 });
 formatter.result({
-  "duration": 9697963393,
+  "duration": 9241160676,
   "status": "passed"
 });
 formatter.match({
@@ -951,7 +1155,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 15057137850,
+  "duration": 18997869829,
   "status": "passed"
 });
 formatter.match({
@@ -968,7 +1172,7 @@ formatter.match({
   "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 3129471106,
+  "duration": 4650793141,
   "status": "passed"
 });
 formatter.match({
@@ -981,7 +1185,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2211716923,
+  "duration": 2696305610,
   "status": "passed"
 });
 formatter.match({
@@ -994,7 +1198,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 3115734910,
+  "duration": 3392403757,
   "status": "passed"
 });
 formatter.match({
@@ -1007,7 +1211,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 8585720386,
+  "duration": 8955922749,
   "status": "passed"
 });
 formatter.match({
@@ -1017,27 +1221,112 @@ formatter.match({
       "offset": 18
     },
     {
-      "val": "1200",
+      "val": "$1.200",
       "offset": 37
     }
   ],
   "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 884308394,
+  "duration": 1041160789,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 598897,
+  "duration": 2398377,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1057183550,
+  "duration": 1150856216,
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "line": 57,
+  "name": "Change value of Default Balance",
+  "description": "",
+  "id": "test-boardbank-master-app;change-value-of-default-balance",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 58,
+  "name": "I am on the \"Home Screen\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 59,
+  "name": "I click the \"Setting icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 60,
+  "name": "I sendkeys \"\u003cdefault balance1\u003e\" into \"Default Balance\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "I click the \"Save Settings button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "I click the \"Setting icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 63,
+  "name": "I sendkeys \"\u003cdefault balance2\u003e\" into \"Default Balance\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "I click the \"Save Settings button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "I should see \"BoardBank\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 66,
+  "name": "I click the \"Add icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 67,
+  "name": "I should see the \"Balance value 2\" is \"\u003cbalance expected\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 68,
+  "name": "",
+  "description": "",
+  "id": "test-boardbank-master-app;change-value-of-default-balance;",
+  "rows": [
+    {
+      "cells": [
+        "default balance1",
+        "default balance2",
+        "balance expected"
+      ],
+      "line": 69,
+      "id": "test-boardbank-master-app;change-value-of-default-balance;;1"
+    },
+    {
+      "cells": [
+        "1500",
+        "3000",
+        "3000"
+      ],
+      "line": 70,
+      "id": "test-boardbank-master-app;change-value-of-default-balance;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
 formatter.before({
-  "duration": 8010841885,
+  "duration": 8672831314,
   "status": "passed"
 });
 formatter.background({
@@ -1082,7 +1371,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 1027510862,
+  "duration": 1049388200,
   "status": "passed"
 });
 formatter.match({
@@ -1095,7 +1384,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2172416774,
+  "duration": 2148940700,
   "status": "passed"
 });
 formatter.match({
@@ -1108,7 +1397,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1697774073,
+  "duration": 1551847838,
   "status": "passed"
 });
 formatter.match({
@@ -1121,7 +1410,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 9693977958,
+  "duration": 10151227548,
   "status": "passed"
 });
 formatter.match({
@@ -1134,65 +1423,74 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2730497881,
+  "duration": 2451102863,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 47,
+  "line": 70,
   "name": "Change value of Default Balance",
   "description": "",
-  "id": "test-boardbank-master-app;change-value-of-default-balance",
+  "id": "test-boardbank-master-app;change-value-of-default-balance;;2",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 48,
+  "line": 58,
   "name": "I am on the \"Home Screen\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 49,
+  "line": 59,
   "name": "I click the \"Setting icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 50,
+  "line": 60,
   "name": "I sendkeys \"1500\" into \"Default Balance\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 51,
+  "line": 61,
   "name": "I click the \"Save Settings button\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 52,
+  "line": 62,
   "name": "I click the \"Setting icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 53,
+  "line": 63,
   "name": "I sendkeys \"3000\" into \"Default Balance\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 54,
+  "line": 64,
   "name": "I click the \"Save Settings button\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 55,
+  "line": 65,
   "name": "I should see \"BoardBank\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 56,
+  "line": 66,
   "name": "I click the \"Add icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 57,
-  "name": "I should see the \"Balance value\" is \"3000\"",
+  "line": 67,
+  "name": "I should see the \"Balance value 2\" is \"3000\"",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "Then "
 });
 formatter.match({
@@ -1205,7 +1503,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 997064394,
+  "duration": 993267968,
   "status": "passed"
 });
 formatter.match({
@@ -1218,7 +1516,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2349304704,
+  "duration": 2798652380,
   "status": "passed"
 });
 formatter.match({
@@ -1235,7 +1533,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 5012726986,
+  "duration": 8804104896,
   "status": "passed"
 });
 formatter.match({
@@ -1248,7 +1546,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1171452007,
+  "duration": 1838568327,
   "status": "passed"
 });
 formatter.match({
@@ -1261,7 +1559,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 3579188324,
+  "duration": 4747597978,
   "status": "passed"
 });
 formatter.match({
@@ -1278,7 +1576,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 13282750487,
+  "duration": 9501209075,
   "status": "passed"
 });
 formatter.match({
@@ -1291,7 +1589,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1486224750,
+  "duration": 1607580965,
   "status": "passed"
 });
 formatter.match({
@@ -1304,7 +1602,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 3347516316,
+  "duration": 2988859140,
   "status": "passed"
 });
 formatter.match({
@@ -1317,37 +1615,145 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 853684097,
+  "duration": 1007330001,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Balance value",
+      "val": "Balance value 2",
       "offset": 18
     },
     {
       "val": "3000",
-      "offset": 37
+      "offset": 39
     }
   ],
   "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 8480142699,
+  "duration": 8640061519,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 433575,
+  "duration": 438156,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1068985056,
+  "duration": 1111110350,
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "comments": [
+    {
+      "line": 71,
+      "value": "#"
+    }
+  ],
+  "line": 74,
+  "name": "Change value of Quick Add Amount",
+  "description": "",
+  "id": "test-boardbank-master-app;change-value-of-quick-add-amount",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 75,
+  "name": "I click the \"Setting icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 76,
+  "name": "I sendkeys \"\u003cquick add amount\u003e\" into \"Quick Add Amount\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "I click the \"Save Settings button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "I should see \"Board Bank\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 79,
+  "name": "I click the \"Add icon\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 80,
+  "name": "I sendkeys \"\u003cplayer name\u003e\" into \"Name textbox\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "I sendkeys \"\u003cbalance value\u003e\" into \"Balance value\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "I select \"Icon\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "I click the \"Add Player button\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "I click the \"item\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 85,
+  "name": "I should see \"menu\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "I click the \"Add $500\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "I should see the \"Balance value\" is \"\u003cbalance expected\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 88,
+  "name": "",
+  "description": "",
+  "id": "test-boardbank-master-app;change-value-of-quick-add-amount;",
+  "rows": [
+    {
+      "cells": [
+        "quick add amount",
+        "player name",
+        "balance value",
+        "balance expected"
+      ],
+      "line": 89,
+      "id": "test-boardbank-master-app;change-value-of-quick-add-amount;;1"
+    },
+    {
+      "cells": [
+        "500",
+        "Thuy Linh",
+        "1000",
+        "$1.500"
+      ],
+      "line": 90,
+      "id": "test-boardbank-master-app;change-value-of-quick-add-amount;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
 formatter.before({
-  "duration": 7919088569,
+  "duration": 8077576368,
   "status": "passed"
 });
 formatter.background({
@@ -1392,7 +1798,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 989091404,
+  "duration": 1049640957,
   "status": "passed"
 });
 formatter.match({
@@ -1405,7 +1811,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2220030431,
+  "duration": 2295580622,
   "status": "passed"
 });
 formatter.match({
@@ -1418,7 +1824,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1724238675,
+  "duration": 1914034829,
   "status": "passed"
 });
 formatter.match({
@@ -1431,7 +1837,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 9362043163,
+  "duration": 9544576460,
   "status": "passed"
 });
 formatter.match({
@@ -1444,80 +1850,92 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2602805782,
+  "duration": 2691222384,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 59,
+  "line": 90,
   "name": "Change value of Quick Add Amount",
   "description": "",
-  "id": "test-boardbank-master-app;change-value-of-quick-add-amount",
+  "id": "test-boardbank-master-app;change-value-of-quick-add-amount;;2",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 60,
+  "line": 75,
   "name": "I click the \"Setting icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 61,
+  "line": 76,
   "name": "I sendkeys \"500\" into \"Quick Add Amount\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 62,
+  "line": 77,
   "name": "I click the \"Save Settings button\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 63,
+  "line": 78,
   "name": "I should see \"Board Bank\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 64,
+  "line": 79,
   "name": "I click the \"Add icon\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 65,
+  "line": 80,
   "name": "I sendkeys \"Thuy Linh\" into \"Name textbox\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 66,
+  "line": 81,
   "name": "I sendkeys \"1000\" into \"Balance value\"",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 67,
+  "line": 82,
   "name": "I select \"Icon\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 68,
+  "line": 83,
   "name": "I click the \"Add Player button\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 69,
+  "line": 84,
   "name": "I click the \"item\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 70,
+  "line": 85,
   "name": "I should see \"menu\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 71,
+  "line": 86,
   "name": "I click the \"Add $500\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 72,
-  "name": "I should see \"Balance value\" is \"1500\"",
+  "line": 87,
+  "name": "I should see the \"Balance value\" is \"$1.500\"",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "Then "
 });
 formatter.match({
@@ -1530,7 +1948,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2249365200,
+  "duration": 2199716472,
   "status": "passed"
 });
 formatter.match({
@@ -1547,7 +1965,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 12134498958,
+  "duration": 8392914871,
   "status": "passed"
 });
 formatter.match({
@@ -1560,7 +1978,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1411301017,
+  "duration": 1548650656,
   "status": "passed"
 });
 formatter.match({
@@ -1573,7 +1991,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 93573,
+  "duration": 141594,
   "status": "passed"
 });
 formatter.match({
@@ -1586,7 +2004,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1267886610,
+  "duration": 1394836010,
   "status": "passed"
 });
 formatter.match({
@@ -1603,7 +2021,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 21746483297,
+  "duration": 16463979625,
   "status": "passed"
 });
 formatter.match({
@@ -1620,7 +2038,7 @@ formatter.match({
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 21706745249,
+  "duration": 16597851972,
   "status": "passed"
 });
 formatter.match({
@@ -1633,7 +2051,7 @@ formatter.match({
   "location": "StepDefinitions.selectIcon(String)"
 });
 formatter.result({
-  "duration": 9388500648,
+  "duration": 9037551206,
   "status": "passed"
 });
 formatter.match({
@@ -1646,7 +2064,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 15090546288,
+  "duration": 14252030168,
   "status": "passed"
 });
 formatter.match({
@@ -1659,7 +2077,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 4120540679,
+  "duration": 4200770166,
   "status": "passed"
 });
 formatter.match({
@@ -1672,7 +2090,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 3156355849,
+  "duration": 2887897199,
   "status": "passed"
 });
 formatter.match({
@@ -1685,29 +2103,33 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 48699,
+  "duration": 8554316928,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Balance value\" is \"1500",
-      "offset": 14
+      "val": "Balance value",
+      "offset": 18
+    },
+    {
+      "val": "$1.500",
+      "offset": 37
     }
   ],
-  "location": "StepDefinitions.verifyDisplay(String)"
+  "location": "StepDefinitions.verifyText(String,String)"
 });
 formatter.result({
-  "duration": 414154,
+  "duration": 892645127,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 315044,
+  "duration": 292751,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1029985891,
+  "duration": 1060547228,
   "status": "passed"
 });
 });

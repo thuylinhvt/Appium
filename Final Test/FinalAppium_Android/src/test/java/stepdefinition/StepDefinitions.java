@@ -8,12 +8,12 @@
 */
 package stepdefinition;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.common.collect.ImmutableMap;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -24,10 +24,11 @@ import pages.LaptopMVTPage;
 import pages.ListProductPage;
 import pages.ProductDetailPage;
 import pages.QueryPage;
+import static utils.AppiumBase.driver;
 
 public class StepDefinitions {
 
-	HomePage homePage = new HomePage();
+	HomePage homePage = new HomePage(driver);
 	CatagoryPage catagoryPage = homePage.catagoryPage();
 	LaptopMVTPage laptopMVTPage = catagoryPage.laptopMVTPage();
 	QueryPage queryPage = homePage.queryPage();
@@ -169,9 +170,6 @@ public class StepDefinitions {
 		if (element.equals("Search textbox")) {
 			homePage.getSearchTextBox().click();
 		}
-		if (element.equals("first result")) {
-			queryPage.getFirstResult().click();
-		}
 		if (element.equals("Xem gio hang")) {
 			productDetailPage.getXemGioHang().click();
 		}
@@ -221,7 +219,7 @@ public class StepDefinitions {
 
 	@Then("^I scroll right to left and I should see 20 \"(.*)\" are display in the ban chay nhat panel$")
 	public void verifyProductNumber(String product) {
-		List<String> listText = new ArrayList<>();
+		List<String> listText = new ArrayList<String>();
 		int loop = 0;
 		if (product.equals("product")) {
 			try {
@@ -240,8 +238,9 @@ public class StepDefinitions {
 					loop++;
 					Thread.sleep(2000);
 				}
-				//tru 1 san pham hien thi ten nhung k hien thi gia (tuy man hinh thiet bi ma co the tru hoac k)
-				assertTrue((listText.size()-1)>=20);
+				// tru 1 san pham hien thi ten nhung k hien thi gia (tuy man hinh thiet bi ma co
+				// the tru hoac k)
+				assertTrue((listText.size() - 1) >= 20);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -251,7 +250,7 @@ public class StepDefinitions {
 
 	@When("^I sendkeys \"(.*)\" into \"(.*)\"$")
 	public void sendkeys(String text, String textBox) {
-		if (text.equals("Tren duong bang") && textBox.equals("textbox")) {
+		if (textBox.equals("textbox")) {
 			if (queryPage.getTextbox().isDisplayed()) {
 				queryPage.getTextbox().sendKeys(text);
 			}
@@ -269,42 +268,46 @@ public class StepDefinitions {
 
 	@Then("^I should see name of \"(.*)\" is \"(.*)\" in the cart page$")
 	public void verifyProductName(String productName, String text) {
-		if (text.equals("Tren duong bang")) {
-			String expectedProductName = "Trên Đường Băng (Tái Bản)";
-			if (productName.equals("product name")) {
-				if (cartPage.getProductName().isDisplayed()) {
-					assertTrue(cartPage.getProductName().getText().equals(expectedProductName));
-				}
+		if (productName.equals("product name")) {
+			if (cartPage.getProductName().isDisplayed()) {
+				assertTrue(cartPage.getProductName().getText().trim().equals(text.trim()));
 			}
 		}
 	}
 
 	@Then("^I should see price of \"(.*)\" is \"(.*)\" in the cart page$")
 	public void verifyPriceProduct(String productPrice, String text) {
-		if (text.equals("59.000")) {
-			String expectedProductPrice = "59.000 ₫";
-			if (productPrice.equals("product price")) {
-				if (cartPage.getProductPrice().isDisplayed()) {
-					assertTrue(cartPage.getProductPrice().getText().equals(expectedProductPrice));
-				}
+		if (productPrice.equals("product price")) {
+			if (cartPage.getProductPrice().isDisplayed()) {
+				assertTrue(cartPage.getProductPrice().getText().trim().equals(text.trim()));
 			}
 		}
 	}
 
 	@When("^I scroll down and I should see \"(.*)\"$")
 	public void scrollDownToDisplay(String element) {
-		laptopMVTPage.swipeMobileDown();
-		while (true) {
-			try {
-				if (element.equals("Ban chay nhat")) {
-					if (laptopMVTPage.getBanChayNhat().isDisplayed());
-					break;
+		int count = 0;
+		if (element.equals("Ban chay nhat")) {
+			while (count < 5) {
+				try {
+					if (laptopMVTPage.getBanChayNhat().isDisplayed())
+						break;
+				} catch (Exception e) {
+					// TODO: handle exception
 				}
-			} catch (Exception e) {
-				// TODO: handle exception
+				laptopMVTPage.swipeMobileDown();
+				count++;
 			}
-
 		}
+	}
+
+	
+	@When("^I click \"(.*)\" on the keyboard$")
+	public void clickKeyboard(String key) {
+		if (key.equals("search button")) {
+			driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
+		}
+
 	}
 
 }

@@ -27,7 +27,7 @@ public class ListProductPage {
 		return new ProductDetailPage(driver);
 	}
 	
-	@AndroidFindBy(xpath = "//android.widget.TextView[@text='Trên Đường Băng (Tái Bản)']")
+	@AndroidFindBy(xpath = "//android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.view.ViewGroup[3]")
 	private AndroidElement expectedProduct;
 
 	public AndroidElement getExpectedProduct() {

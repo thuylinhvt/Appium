@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.fpt.TestTiKiApp" duration-ms="80576" started-at="2019-04-17T02:51:25Z" finished-at="2019-04-17T02:52:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="80576" started-at="2019-04-17T02:51:25Z" finished-at="2019-04-17T02:52:45Z">
+      <class name="com.fpt.TestTiKiApp">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.fpt.TestTiKiApp@1936f0f5]" name="beforeClass" is-config="true" duration-ms="11884" started-at="2019-04-17T02:51:25Z" finished-at="2019-04-17T02:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fpt.TestTiKiApp@1936f0f5]" name="test" duration-ms="67467" started-at="2019-04-17T02:51:37Z" finished-at="2019-04-17T02:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.fpt.TestTiKiApp@1936f0f5]" name="close" is-config="true" duration-ms="1181" started-at="2019-04-17T02:52:44Z" finished-at="2019-04-17T02:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.fpt.TestTiKiApp -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.fpt.TestTiKiApp -->
+</testng-results>

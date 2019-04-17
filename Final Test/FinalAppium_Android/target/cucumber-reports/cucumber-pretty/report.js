@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17478827298,
+  "duration": 6973361098,
   "status": "passed"
 });
 formatter.background({
@@ -37,7 +37,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 4360781548,
+  "duration": 6695680258,
   "status": "passed"
 });
 formatter.match({
@@ -50,7 +50,7 @@ formatter.match({
   "location": "StepDefinitions.findMenuIcon(String)"
 });
 formatter.result({
-  "duration": 2345133293,
+  "duration": 2446423352,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,7 +106,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1736661717,
+  "duration": 427354864,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +119,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 695286340,
+  "duration": 2855932408,
   "status": "passed"
 });
 formatter.match({
@@ -132,7 +132,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1051130349,
+  "duration": 441328108,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1091845284,
+  "duration": 1100059534,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 4003396641,
+  "duration": 760089439,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 25744035916,
+  "duration": 26732333931,
   "status": "passed"
 });
 formatter.match({
@@ -184,20 +184,20 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 648208469,
+  "duration": 306857989,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 643276,
+  "duration": 519556,
   "status": "passed"
 });
 formatter.after({
-  "duration": 8748432007,
+  "duration": 3392711864,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8746386343,
+  "duration": 6895435983,
   "status": "passed"
 });
 formatter.background({
@@ -227,7 +227,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 4750678661,
+  "duration": 5648522780,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +240,7 @@ formatter.match({
   "location": "StepDefinitions.findMenuIcon(String)"
 });
 formatter.result({
-  "duration": 451181264,
+  "duration": 350541054,
   "status": "passed"
 });
 formatter.scenario({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 2438313012,
+  "duration": 1242840542,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2692062107,
+  "duration": 2804030302,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2194210289,
+  "duration": 2849923885,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1905346650,
+  "duration": 3595488025,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1841390692,
+  "duration": 4746481486,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 6803173119,
+  "duration": 1247838680,
   "status": "passed"
 });
 formatter.match({
@@ -374,20 +374,20 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2147073839,
+  "duration": 2145148419,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 2138010,
+  "duration": 416699,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7941792207,
+  "duration": 5093293558,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6905568063,
+  "duration": 6554204962,
   "status": "passed"
 });
 formatter.background({
@@ -417,7 +417,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 5647766865,
+  "duration": 4494112556,
   "status": "passed"
 });
 formatter.match({
@@ -430,7 +430,7 @@ formatter.match({
   "location": "StepDefinitions.findMenuIcon(String)"
 });
 formatter.result({
-  "duration": 389638095,
+  "duration": 1210508647,
   "status": "passed"
 });
 formatter.scenario({
@@ -486,7 +486,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 947320111,
+  "duration": 4039943781,
   "status": "passed"
 });
 formatter.match({
@@ -499,7 +499,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 5850938979,
+  "duration": 4493728940,
   "status": "passed"
 });
 formatter.match({
@@ -512,7 +512,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 4700654604,
+  "duration": 2895393929,
   "status": "passed"
 });
 formatter.match({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 1103053287,
+  "duration": 999767155,
   "status": "passed"
 });
 formatter.match({
@@ -538,7 +538,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 746357360,
+  "duration": 797225920,
   "status": "passed"
 });
 formatter.match({
@@ -551,7 +551,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 24342654709,
+  "duration": 24450340672,
   "status": "passed"
 });
 formatter.match({
@@ -564,20 +564,20 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 448045507,
+  "duration": 200752269,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 364170,
+  "duration": 341756,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4849514178,
+  "duration": 3509473826,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8912025745,
+  "duration": 6744886146,
   "status": "passed"
 });
 formatter.background({
@@ -607,7 +607,7 @@ formatter.match({
   "location": "StepDefinitions.homeScreen(String)"
 });
 formatter.result({
-  "duration": 5577070887,
+  "duration": 5447647734,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "StepDefinitions.findMenuIcon(String)"
 });
 formatter.result({
-  "duration": 1552095972,
+  "duration": 440453277,
   "status": "passed"
 });
 formatter.scenario({
@@ -686,7 +686,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1902806322,
+  "duration": 1100200779,
   "status": "passed"
 });
 formatter.match({
@@ -699,7 +699,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 10541833685,
+  "duration": 8290532107,
   "status": "passed"
 });
 formatter.match({
@@ -712,7 +712,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToClick(String)"
 });
 formatter.result({
-  "duration": 26498811681,
+  "duration": 24604356509,
   "status": "passed"
 });
 formatter.match({
@@ -725,7 +725,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTitle(String)"
 });
 formatter.result({
-  "duration": 5189874419,
+  "duration": 3351566529,
   "status": "passed"
 });
 formatter.match({
@@ -738,7 +738,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 149715851,
+  "duration": 439713089,
   "status": "passed"
 });
 formatter.match({
@@ -751,7 +751,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 30448722677,
+  "duration": 23698262306,
   "status": "passed"
 });
 formatter.match({
@@ -764,7 +764,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 24348123658,
+  "duration": 23998524322,
   "status": "passed"
 });
 formatter.match({
@@ -777,7 +777,7 @@ formatter.match({
   "location": "StepDefinitions.scrollDownToDisplay(String)"
 });
 formatter.result({
-  "duration": 3699046673,
+  "duration": 23948082803,
   "status": "passed"
 });
 formatter.match({
@@ -790,72 +790,25 @@ formatter.match({
   "location": "StepDefinitions.verifyProductNumber(String)"
 });
 formatter.result({
-  "duration": 107804791776,
+  "duration": 102713045542,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 698235,
+  "duration": 1309828,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4992970469,
+  "duration": 6136347886,
   "status": "passed"
 });
-formatter.before({
-  "duration": 7058285993,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "User open the TIKI application",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "I am on the \"Home Screen\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "I should see \"Menu Icon\" on top screen",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Home Screen",
-      "offset": 13
-    }
-  ],
-  "location": "StepDefinitions.homeScreen(String)"
-});
-formatter.result({
-  "duration": 6287249015,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Menu Icon",
-      "offset": 14
-    }
-  ],
-  "location": "StepDefinitions.findMenuIcon(String)"
-});
-formatter.result({
-  "duration": 1105273675,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 46,
   "name": "Verify product in cart",
   "description": "",
   "id": "test-tiki-app;verify-product-in-cart",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 47,
@@ -864,12 +817,12 @@ formatter.step({
 });
 formatter.step({
   "line": 48,
-  "name": "I sendkeys \"Tren duong bang\" into \"textbox\"",
+  "name": "I sendkeys \"\u003ckey\u003e\" into \"textbox\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 49,
-  "name": "I click the \"first result\"",
+  "name": "I click \"search button\" on the keyboard",
   "keyword": "And "
 });
 formatter.step({
@@ -904,12 +857,158 @@ formatter.step({
 });
 formatter.step({
   "line": 56,
-  "name": "I should see name of \"product name\" is \"Tren duong bang\" in the cart page",
+  "name": "I should see name of \"product name\" is \"\u003cname\u003e\" in the cart page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 57,
-  "name": "I should see price of \"product price\" is \"59.000 ₫\" in the cart page",
+  "name": "I should see price of \"product price\" is \"\u003cprice\u003e\" in the cart page",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 58,
+  "name": "",
+  "description": "",
+  "id": "test-tiki-app;verify-product-in-cart;",
+  "rows": [
+    {
+      "cells": [
+        "key",
+        "name",
+        "price"
+      ],
+      "line": 59,
+      "id": "test-tiki-app;verify-product-in-cart;;1"
+    },
+    {
+      "cells": [
+        "Toi thay hoa vang tren co xanh",
+        "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+        "125.000 ₫"
+      ],
+      "line": 60,
+      "id": "test-tiki-app;verify-product-in-cart;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 7743903514,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "User open the TIKI application",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "I am on the \"Home Screen\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I should see \"Menu Icon\" on top screen",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Home Screen",
+      "offset": 13
+    }
+  ],
+  "location": "StepDefinitions.homeScreen(String)"
+});
+formatter.result({
+  "duration": 5439614346,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Menu Icon",
+      "offset": 14
+    }
+  ],
+  "location": "StepDefinitions.findMenuIcon(String)"
+});
+formatter.result({
+  "duration": 3459834393,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 60,
+  "name": "Verify product in cart",
+  "description": "",
+  "id": "test-tiki-app;verify-product-in-cart;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 47,
+  "name": "I click the \"Search textbox\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "I sendkeys \"Toi thay hoa vang tren co xanh\" into \"textbox\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "I click \"search button\" on the keyboard",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "I scroll up and I click the \"result product\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "I should see \"product name\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 52,
+  "name": "I should see \"product price\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "I scroll up and I should see \"Chon mua\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "I click the \"Chon mua\" button in the detail product",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 55,
+  "name": "I click the \"Xem gio hang\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "I should see name of \"product name\" is \"Tôi Thấy Hoa Vàng Trên Cỏ Xanh\" in the cart page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 57,
+  "name": "I should see price of \"product price\" is \"125.000 ₫\" in the cart page",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "And "
 });
 formatter.match({
@@ -922,37 +1021,37 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1188048150,
+  "duration": 2536539327,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Tren duong bang",
+      "val": "Toi thay hoa vang tren co xanh",
       "offset": 12
     },
     {
       "val": "textbox",
-      "offset": 35
+      "offset": 50
     }
   ],
   "location": "StepDefinitions.sendkeys(String,String)"
 });
 formatter.result({
-  "duration": 8750795847,
+  "duration": 12794080701,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "first result",
-      "offset": 13
+      "val": "search button",
+      "offset": 9
     }
   ],
-  "location": "StepDefinitions.click(String)"
+  "location": "StepDefinitions.clickKeyboard(String)"
 });
 formatter.result({
-  "duration": 6649223948,
+  "duration": 6347004775,
   "status": "passed"
 });
 formatter.match({
@@ -965,7 +1064,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToClick(String)"
 });
 formatter.result({
-  "duration": 6699314200,
+  "duration": 1099065847,
   "status": "passed"
 });
 formatter.match({
@@ -978,7 +1077,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 2446641068,
+  "duration": 1997751199,
   "status": "passed"
 });
 formatter.match({
@@ -991,7 +1090,7 @@ formatter.match({
   "location": "StepDefinitions.verifyDisplay(String)"
 });
 formatter.result({
-  "duration": 147752795,
+  "duration": 1148739830,
   "status": "passed"
 });
 formatter.match({
@@ -1004,7 +1103,7 @@ formatter.match({
   "location": "StepDefinitions.scrollToDisplay(String)"
 });
 formatter.result({
-  "duration": 297284641,
+  "duration": 248671052,
   "status": "passed"
 });
 formatter.match({
@@ -1017,7 +1116,7 @@ formatter.match({
   "location": "StepDefinitions.clickChonMuaButton1(String)"
 });
 formatter.result({
-  "duration": 651655044,
+  "duration": 654558269,
   "status": "passed"
 });
 formatter.match({
@@ -1030,7 +1129,7 @@ formatter.match({
   "location": "StepDefinitions.click(String)"
 });
 formatter.result({
-  "duration": 1499090196,
+  "duration": 1244977426,
   "status": "passed"
 });
 formatter.match({
@@ -1040,14 +1139,14 @@ formatter.match({
       "offset": 22
     },
     {
-      "val": "Tren duong bang",
+      "val": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
       "offset": 40
     }
   ],
   "location": "StepDefinitions.verifyProductName(String,String)"
 });
 formatter.result({
-  "duration": 3241946923,
+  "duration": 2647460676,
   "status": "passed"
 });
 formatter.match({
@@ -1057,23 +1156,23 @@ formatter.match({
       "offset": 23
     },
     {
-      "val": "59.000 ₫",
+      "val": "125.000 ₫",
       "offset": 42
     }
   ],
   "location": "StepDefinitions.verifyPriceProduct(String,String)"
 });
 formatter.result({
-  "duration": 91617,
+  "duration": 399460267,
   "status": "passed"
 });
 formatter.write("scenario pass");
 formatter.after({
-  "duration": 227126,
+  "duration": 337665,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3560695011,
+  "duration": 3400155518,
   "status": "passed"
 });
 });

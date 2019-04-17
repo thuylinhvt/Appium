@@ -33,6 +33,7 @@ public class QueryPage {
 	
 	@AndroidFindBy(xpath = "//android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]")
 	private AndroidElement firstResult;
+
 	
 	public AndroidElement getTextbox() {
 		return textbox;

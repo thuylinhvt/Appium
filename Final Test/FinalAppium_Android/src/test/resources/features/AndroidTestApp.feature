@@ -42,21 +42,22 @@ Feature: Test TIKI App
     When I scroll down and I should see "Ban chay nhat"
     And I scroll right to left and I should see 20 "product" are display in the ban chay nhat panel
     
-   
-    Scenario: Verify product in cart
+    
+    Scenario Outline: Verify product in cart
     When I click the "Search textbox"
-    And I sendkeys "Tren duong bang" into "textbox" 
-   	And I click the "first result"
+    And I sendkeys "<key>" into "textbox" 
+   	And I click "search button" on the keyboard
    	And I scroll up and I click the "result product"
     Then I should see "product name"
     And I should see "product price"
     And I scroll up and I should see "Chon mua"
     When I click the "Chon mua" button in the detail product
     And I click the "Xem gio hang"
-    Then I should see name of "product name" is "Tren duong bang" in the cart page 
-    And I should see price of "product price" is "59.000 ₫" in the cart page
-    
-    
+    Then I should see name of "product name" is "<name>" in the cart page 
+    And I should see price of "product price" is "<price>" in the cart page
+     Examples: 
+      | key                            | name                           | price     |
+      | Toi thay hoa vang tren co xanh | Tôi Thấy Hoa Vàng Trên Cỏ Xanh | 125.000 ₫ |
     
     
     

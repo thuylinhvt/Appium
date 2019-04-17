@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75063" started-at="2019-04-17T02:42:42Z" finished-at="2019-04-17T02:43:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75063" started-at="2019-04-17T02:42:42Z" finished-at="2019-04-17T02:43:57Z">
+      <class name="com.fpt.TikiAppTestOnAndroid">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.fpt.TikiAppTestOnAndroid@3abbfa04]" name="beforeClass" is-config="true" duration-ms="9361" started-at="2019-04-17T02:42:42Z" finished-at="2019-04-17T02:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testForTiki()[pri:0, instance:com.fpt.TikiAppTestOnAndroid@3abbfa04]" name="testForTiki" duration-ms="64204" started-at="2019-04-17T02:42:51Z" finished-at="2019-04-17T02:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForTiki -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.fpt.TikiAppTestOnAndroid@3abbfa04]" name="close" is-config="true" duration-ms="1452" started-at="2019-04-17T02:43:55Z" finished-at="2019-04-17T02:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.fpt.TikiAppTestOnAndroid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
